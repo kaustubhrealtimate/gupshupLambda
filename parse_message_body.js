@@ -30,7 +30,7 @@ function parseMessageBody(task) {
     }
   });
 
-  // Build messageobject
+  // Build header object
 
   task.components.forEach((component) => {
     if (component.type === "header") {
